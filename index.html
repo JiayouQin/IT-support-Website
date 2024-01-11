@@ -26,45 +26,45 @@
       style="text-align: right; color:white; padding-right: 30px; text-decoration:none;">Call us Now<br> (551)-225-1234</a>
     </ul>
   </nav>
-
   <div data-spy="scroll" data-target="#navbar-main-page" data-offset="0" id="index-content">
     <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
         <h2 id = "about-us"><b>Your Local IT Support in Union City, New Jersey.</b></h2>
-
-          <div class="row row-cols-1 row-cols-md-4 g-4">
-            <div class="col">
-              <div class="card h-100">
-                <img src="images/localbusiness.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">We focus on local small business</h5>
-                  <p class="card-text align-text-bottom">We only serve local small business so we are the right choice for you! We are small we are agile and fast, save your precious time by choosing us.</p>
+        <div class="mx-auto" >
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+              <div class="col">
+                <div class="card h-100">
+                  <img src="images/localbusiness.jpg" class="card-img-top" alt="...">
+                  <div class="card-body rounded">
+                    <h5 class="card-title">We focus on local small business</h5>
+                    <p class="card-text align-text-bottom">We only serve local small business so we are the right choice for you! We are small we are agile and fast, save your precious time by choosing us.</p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col">
-              <div class="card h-100">
-                <img src="images/weareeasytoworkwith.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">We are easy to work with</h5>
-                  <p class="card-text">We prioritize your convenience and satisfaction. Our friendly and responsive team ensures a smooth collaboration, addressing your needs with a customer-centric approach. </p>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="images/weareeasytoworkwith.jpg" class="card-img-top" alt="...">
+                  <div class="card-body rounded">
+                    <h5 class="card-title">We are easy to work with</h5>
+                    <p class="card-text">We prioritize your convenience and satisfaction. Our friendly and responsive team ensures a smooth collaboration, addressing your needs with a customer-centric approach. </p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col">
-              <div class="card h-100">
-                <img src="images/webringyourcostdown.jpg" class="card-img-top" alt="..." >
-                <div class="card-body">
-                  <h5 class="card-title">We bring down your cost</h5>
-                  <p class="card-text  ">We are a local small business, we do not have overhead expenses. That's why more money goes back to you!</p>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="images/webringyourcostdown.jpg" class="card-img-top" alt="..." >
+                  <div class="card-body rounded">
+                    <h5 class="card-title">We bring down your cost</h5>
+                    <p class="card-text  ">We are a local small business, we do not have overhead expenses. That's why more money goes back to you!</p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col">
-              <div class="card h-100">
-                <img src="images/weareallyouneed.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">We are all you need</h5>
-                  <p class="card-text">we focus our service on small businesses and we are all you need. Whether it's touble shooting or setup new enviroments, we have you covered.</p>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="images/weareallyouneed.jpg" class="card-img-top" alt="...">
+                  <div class="card-body rounded">
+                    <h5 class="card-title">We are all you need</h5>
+                    <p class="card-text">we focus our service on small businesses and we are all you need. Whether it's touble shooting or setup new enviroments, we have you covered.</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -166,19 +166,27 @@ h2{
     position:relative;
     flex:70%;
 }
+.row{
+  justify-content: center;
+}
+.col{
+  min-width: 300px;
+}
 .card{
   border:none;
-  background-color:transparent;
+  background-color:transparent;  
 }
+
 .card-title{
   padding-top: 30px;
   text-align: center;
 }
 .card-body{
   background-color:rgba(127,127,127,0.3)
+  
 }
 .card-img-top{
-  min-width:200px;
+  width: 100%;
   aspect-ratio:3/2;
 }
 .centered-image {
@@ -186,7 +194,7 @@ h2{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 400px;
+  width: 80%;
   aspect-ratio: 4/3;
 }
 </style>
