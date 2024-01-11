@@ -112,14 +112,26 @@
           </div>
 
         <h2 id="contact"><b>Contact:</b></h2>
-        <div id="map"></div>
-        John Doe <br>
-        (123) 123-1234 <br>
-        📍 Palisade Ave. Union City New Jersey <br></p>
+        <div class="map-row">
+          <div class="column" style="flex:30%">
+            John Doe <br>
+            (123) 123-1234 <br>
+            📍 Palisade Ave. Union City New Jersey <br></p>
+          </div>
+          <div class="column" id="map">
+          </div>
+        </div>
+      
     </div>
   </div>
 
 <style>
+.map-row {
+  margin:auto;
+  display: flex;
+  padding-bottom: 100px;
+}
+
 #nav-background{
     background-color: white;
 }
@@ -150,7 +162,9 @@ h2{
 }
 #map {
     height: 400px; /* The height is 400 pixels */
-    width: 100%; /* The width is the width of the web page */
+    width: 80%; /* The width is the width of the web page */
+    position:relative;
+    flex:70%;
 }
 .card{
   border:none;
@@ -164,7 +178,6 @@ h2{
   background-color:rgba(127,127,127,0.3)
 }
 .card-img-top{
-  
   min-width:200px;
   aspect-ratio:3/2;
 }
@@ -174,6 +187,7 @@ h2{
   margin-left: auto;
   margin-right: auto;
   width: 400px;
+  aspect-ratio: 4/3;
 }
 </style>
     
